@@ -18,7 +18,7 @@ RUN wget -nv --no-cookies --no-check-certificate \
 
 ENV JAVA_HOME=/usr/java/jdk1.8.0_${JAVA_UPDATE} \
     ZK_HOSTS=localhost:2181 \
-    KM_VERSION=1.3.1.6 \
+    KM_VERSION=1.3.1.8 \
     KM_REVISION=0.10.0 \
     KM_CONFIGFILE="conf/application.conf"
 
